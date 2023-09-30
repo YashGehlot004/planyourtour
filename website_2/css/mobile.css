@@ -1,0 +1,100 @@
+@media only screen and (min-width:0px) and (max-width:575px) {
+
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        position: static !important;
+    }
+
+    .nav-item {
+        display: block !important;
+    }
+
+    .navbar-collapse {
+        display: none !important;
+    }
+    .bar {
+        background-color: rgb(247 106 0);
+        color: white !important;
+    }
+    .offcanvas{
+        z-index: 999;
+    }
+    /* main section */
+    .main {
+        background: url(../images/50ee9dd0-66d9-4c00-902d-7bf748ca152b-1675759716.jpg) no-repeat  ;
+        background-size: 100% 100%;
+        height: 400px !important;
+        padding-top:  100px !important;
+    }
+
+    .main  h1 {
+        font-size: 36px;
+        line-height: 50px;
+        padding: 0px 40px;
+    }
+
+    .main h4 {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0px 50px;
+    }
+    /* locastion section */
+
+    .locastion {
+        position: unset !important;
+        width: 100% !important;
+    }
+    .locastion select{
+        margin: 10px 0px;
+    }
+    /* section 3 */
+
+    .img img{
+        width: 170px;
+        height: 292px;
+        cursor: pointer; 
+        transition: 0.5s;
+    }
+    /* section 4 */
+
+    .PlanYourTour{
+        text-align: justify;
+        line-height: 35px;
+    }
+    .Agency{
+        color: rgb(247 106 0);
+        font-size: 30px !important;
+    }
+    .text{
+        text-align: center;
+    }
+    .subscribe input{
+        width: 100% !important;
+        margin: 20px 0px !important ;
+    }
+    .subscribe button{
+        width: 100% !important;
+    }
+    /* pop */
+    
+    .form img {
+        width: 100%;
+        height: 400px;
+        display: none !important;
+    }
+   pop{
+        width: 95%;
+    }
+.popform input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid #ced4da !important;
+}
+}
+.card img{
+    width: 100% !important;
+}
